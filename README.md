@@ -1,2 +1,2 @@
 # GYM-LP
-Author: Adnan
+Author: <i>Adnan<i>
