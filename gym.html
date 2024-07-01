@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY GYM</title>
+</head>
+<link rel="stylesheet" href="style .css">
+<style>
+    /* CSS RESET */
+    body {
+
+        margin: 0px;
+        padding: 0px;
+        background-image: url(https://wallpapertag.com/wallpaper/full/5/1/a/124353-popular-gym-background-1920x1110-for-android-tablet.jpg);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+    }
+
+    .left {
+        /* border: 2px solid rgb(75, 69, 69); */
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 30px;
+
+
+    }
+
+    .left img {
+        width: 130px;
+        filter: invert(100%);
+    }
+
+    #logo {
+        color: white;
+        /* width: 80%;
+        margin: auto; */
+        text-align: center;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(75, 69, 69); */
+        width: 30%;
+        margin: 20px auto;
+
+        display: block;
+    }
+
+    .right {
+        /* border: 2px solid rgb(75, 69, 69); */
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 5px 5px;
+        font-size: medium;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(58, 53, 53);
+
+
+    }
+
+    .btn {
+        margin: 0PX 9PX;
+        background-color: black;
+        color: white;
+        padding: 3PX 4PX;
+        border-radius: 10px;
+        border-color: grey;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        color: grey;
+    }
+
+    .container {
+
+        /* border: 2px solid green; */
+        margin: 89px 55px;
+        padding: 32px 80px;
+        border-radius: 16px;
+        width: 35%;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 361px;
+        padding: 6px;
+        margin: 6px auto;
+        border-radius: 14px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        text-align: center;
+        display: block;
+        width: 361px;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- left box for logo -->
+            <div class="left"><img
+                    src="https://th.bing.com/th/id/OIP.qZpQ5VsLxLbFttREqAsVrAHaE7?w=273&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                    alt="">
+                <div id="logo">THE GYM</div>
+            </div>
+            <!-- mid bar for nav box -->
+            <div class="mid">
+                <ul>
+                    <div class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Fitness Calculator</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">About us</a></li>
+                    </div>
+                </ul>
+            </div>
+            <!-- right box for buttons -->
+            <div class="right"><button class="btn">Call us now</button><button class="btn">Email us</button></div>
+        </div>
+    </header>
+    <div class="container">
+        <h1 style="color: white;">JOIN THE BEST GYM OF GORAKHPUR</h1>
+        <form action="noaction.php">
+            <div class="formgroup"><input type="tel" name="" placeholder="Enter your name"></div>
+            <div class="formgroup"><input type="tel" name="" placeholder="Enter your age"></div>
+            <div class="formgroup"><input type="tel" name="" placeholder="Enter your gender"></div>
+            <div class="formgroup"><input type="tel" name="" placeholder="Enter your address"></div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
